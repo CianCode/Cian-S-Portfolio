@@ -70,7 +70,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "angelsdevcompany@gmail.com";
+    const text = "contact@jonescian.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
     setAnimationKey((prevKey) => prevKey + 1); // Change key to retrigger animation
