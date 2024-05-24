@@ -1,36 +1,67 @@
-### Mon Portfolio
+# Portfolio Project
 
-## Get Started
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Welcome to my portfolio project! This repository showcases my personal and professional projects, highlighting my skills and experience in web development. Built with Next.js, Tailwind CSS, and TypeScript, this portfolio is a modern, responsive, and performant web application.
 
+## Features
+
+- **Next.js**: Utilizes the power of Next.js for server-side rendering, static site generation, and optimized performance.
+- **Tailwind CSS**: Styled with Tailwind CSS for a highly customizable and responsive design system.
+- **TypeScript**: Ensures type safety and improves developer experience with TypeScript integration.
+- **Responsive Design**: Fully responsive layout that looks great on all devices, from desktops to mobile phones.
+- **SEO Optimized**: Built with SEO best practices to ensure visibility and search engine ranking.
+- **Dynamic Content**: Easily manage and update portfolio items and other content.
+
+
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps:
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+
+### Installation
+
+- **Clone the repo:**
+    ```sh
+    git clone https://github.com/yourusername/portfolio-project.git
+    
+- **Install dependencies:**
+    ```sh
+    cd portfolio-project
+    npm install
+    ```
+    or
+
+    ```sh
+    yarn install
+    ```
+- **Run the development server:**
+    ```sh
+    npm run dev
+    ```
+    or
+
+    ```
+    yarn dev
+    ```
+Open http://localhost:3000 with your browser to see the result.## Usage
+
+Feel free to customize the portfolio content by editing the data files in the `content` directory. Update the configuration in `next.config.js` and `tailwind.config.js` as needed to suit your design preferences.
 ## License
 
-Copyright (c) 2024 Jones Cian
+Distributed under the [MIT](https://choosealicense.com/licenses/mit/) License.
 
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
+## Contact
 
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
+- **Email**: [contact@jonescian.com](mailto:contact@jonescian.com)
+- **LinkedIn**: [My LinkedIn](https://www.linkedin.com/in/cian-jones-99698630b/)
+- **Twitter**: [@CianCode](https://x.com/CianCode)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+---
+
+Thank you for visiting my portfolio project repository! If you have any questions or feedback, feel free to reach out. Happy coding!
