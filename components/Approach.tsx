@@ -12,14 +12,14 @@ const Approach = () => {
             <span className="text-purple"> approach</span>
         </h1>
         <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
-            <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase 2"/>} desc="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.">
+            <Card title="Planning & Strategy" icon={<AceternityIcon order="Phase 1"/>} desc="We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements.">
             <CanvasRevealEffect
                 animationSpeed={5.1}
                 // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
                 containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
             />
             </Card>
-            <Card title="Developement & Progress Update" icon={<AceternityIcon order="Phase 1" />} desc="Once we agree on the plan, I cue my lofi playlist and dive intocoding. From initial sketches to polished code, I keep you updated every step of the way.">
+            <Card title="Developement & Progress Update" icon={<AceternityIcon order="Phase 2" />} desc="Once we agree on the plan, I cue my lofi playlist and dive intocoding. From initial sketches to polished code, I keep you updated every step of the way.">
             <CanvasRevealEffect
                 animationSpeed={3}
                 // change bg-black to bg-pink-900
