@@ -18,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <link rel="icon" href="public/supabase.svg" sizes="any" />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
